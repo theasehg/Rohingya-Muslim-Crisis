@@ -1,0 +1,99 @@
+
+html { 
+  background-color:  black
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000000;
+}
+
+li {
+    float: left ;
+    text-align: center;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 100px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #000000;
+    color: #808080;
+}
+.image {
+    height: auto;
+background-position: center;
+background-repeat: no-repeat;
+image-size: cover;
+}
+
+
+
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #00000;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.image2 {
+  display: block;
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+
+.container2 {
+  position: center;
+  width: 100%;
+}
+
+.overlay2 {
+  position: center;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #00000;
+}
+
+.container2:hover .overlay2 {
+  opacity: 1;
+}
+
+.text {
+  font-size: 10px;
+  color: white;
+  text-align: center;
+}
+
+h1{
+  font-family: "Andale Mono", monospace;
+}
